@@ -1390,7 +1390,7 @@ st.set_page_config(page_title="EXL Brand Visibility", layout="wide")
 st.markdown("""<style>.stApp{background:#FAF7F3;}</style> """,unsafe_allow_html=True)
 
 # Initialize OpenAI client
-client = OpenAI(api_key=st.secrets["api_keys"]["Openai_API_KEY"])
+# client = OpenAI(api_key=st.secrets["api_keys"]["Openai_API_KEY"])
 #openai.api_key = st.secrets["api_keys"]["Openai_API_KEY"]
 # Function to run prompts and collect responses
 # def run_prompts(prompts, model="gpt-4-turbo", temperature=0.7):
